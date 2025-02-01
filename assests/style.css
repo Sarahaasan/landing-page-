@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding:0;
+    min-height: 100vh;
+    background: linear-gradient(244.64deg, #3440AE 0%, rgba(159, 167, 241, 0) 40.32%);
+    font-family: "Inter", serif;
+}
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 92%;
+}
+nav
+{
+     display: flex; 
+     align-items: center;
+     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    height: 110px;
+
+}
+nav .list
+{
+    list-style: none;
+    display: flex;
+    gap:5px;
+}
+.list li a
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 43px;;
+}
+.list li:last-of-type a
+{margin-right: 0;}
+
+.hero
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 80px; 
+  margin-top: -24px;
+}
+.hero .left
+{
+    max-width: 31%;
+}
+.red
+{
+    color: #ED6F9C;
+}
+.hero h2
+{
+    font-size: 45px;
+}
+.hero p{
+    font-size: 24px;
+}
+ .button
+{
+    display: flex;
+    gap:5px;
+} 
+.left .sign
+{
+    padding: 16px 34px;
+    border-radius: 12px;
+    background-color: #3440AE;
+    color: white;
+    border: 1px solid #3440AE;
+    font-size: 24px;
+}
+.sign:hover
+{
+    background-color: white;
+    color: #3440AE;
+    transition: 1s;
+}
+.left .log
+{
+    padding: 16px 34px;
+    border-radius: 12px;
+    background-color: white;
+    color: #3440AE;
+    border: 1px solid #3440AE;
+    margin-left: 23px; 
+    font-size: 24px;
+}
+.log:hover
+{
+    background-color: #3440AE;
+    color: white;
+    transition: 1s;
+}
