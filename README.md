@@ -1,1 +1,1 @@
-<pre style="font-size: 24px;">HTML5 CSS3 JS</pre>
+<pre style="font-size: 24px;"> responsive landing page with HTML5 CSS3 </pre>
